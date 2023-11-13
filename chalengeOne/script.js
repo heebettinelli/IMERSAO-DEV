@@ -1,9 +1,10 @@
 function conversorBtc() {
-    var dollarValue = 64
-    var exchangeDollar = 5.32
-    var realValue = dollarValue * exchangeDollar
-    realValue = realValue.toFixed(2)
+    var soma = window.prompt("Quantos BTC quer converter?")
+    window.prompt = exchangeBtc
+    var exchangeBtc = 181859.37
+    var realValue = soma * exchangeBtc
+    realValue.toFixed(2)
 
-    alert("R$" + realValue)
+    window.alert("R$" + realValue)
 
 }
