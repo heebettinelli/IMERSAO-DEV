@@ -3,7 +3,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-image: url("../space.jpeg");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -11,9 +11,33 @@ body {
     height: 100vh;
   }
   
-  .container {
+  .title {
     text-align: center;
     padding: 20px;
+  }
+
+  .form {
+    text-align: center;
+    align-items: left;
+  }
+
+  a{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  label{
+    align-items: left;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  input{
+    margin:auto;
+    width: 150px;
+    height: 30px;
   }
   
   .page-title {
@@ -25,6 +49,13 @@ body {
   .page-subtitle {
     color: #ffffff;
     margin-top: 5px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: center;
   }
 
   .btn{

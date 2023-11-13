@@ -1,9 +1,7 @@
-function conversorEspacial() {
-    var dollarValue = 64
-    var exchangeDollar = 5.32
-    var realValue = dollarValue * exchangeDollar
-    realValue = realValue.toFixed(2)
-
-    alert("R$" + realValue)
+function resultado() {
+    var anosLuz = window.prompt("Quantos anos quer calcular?")
+    var resultado = anosLuz * 9500000000000
+    
+    window.alert(resultado)
 
 }
