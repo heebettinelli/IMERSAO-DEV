@@ -1,5 +1,5 @@
 function conversorMoedas() {
-    var soma = window.prompt("Quantos Reais quer converter para Dólares?")
+    var soma = window.prompt("Quantos Doláres quer converter para Reais?")
     window.prompt = exchangeDollar
     var exchangeDollar = 5.32
     var realValue = soma * exchangeDollar
