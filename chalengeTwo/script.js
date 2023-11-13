@@ -1,11 +1,11 @@
 function conversorPersonalizado() {
     var nome = window.prompt("Qual é o seu nome?")
-    
-    var dollarValue = 64
-    var exchangeDollar = 5.32
-    var realValue = dollarValue * exchangeDollar
-    realValue = realValue.toFixed(2)
+    var valor = window.prompt("Quantos Reais quer conveter eu Dólares?")
 
-    window.alert("R$" + realValue + "  "+ nome)
+    var exchangeDollar = 5.32
+    var realValue = valor * exchangeDollar
+    realValue = realValue
+
+    window.alert("R$" + realValue + "  "+ nome )
 
 }
