@@ -1,4 +1,4 @@
-function conversorMoedas() {
+function conversorPersonalizado() {
     var dollarValue = 64
     var exchangeDollar = 5.32
     var realValue = dollarValue * exchangeDollar
@@ -7,5 +7,3 @@ function conversorMoedas() {
     alert("R$" + realValue)
 
 }
-
-

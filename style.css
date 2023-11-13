@@ -19,11 +19,22 @@ body {
   .page-title {
     color: #ffffff;
     margin: 0 0 5px;
+    margin: 20px;
   }
   
   .page-subtitle {
     color: #ffffff;
     margin-top: 5px;
+  }
+
+  .btn{
+    color: white;
+    border: none;
+    background-color: rgb(209, 27, 27);
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    box-shadow: #2f2f2f 3px 3px 3px;
   }
   
   .page-logo {
