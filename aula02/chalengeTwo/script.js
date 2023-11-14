@@ -10,10 +10,6 @@ function comecar() {
     contador = contador + 1 
     var chute = prompt("Digite um número de 0 a 1000, você terá" + " " + tentativas + " " + "tentativas")
 
-    if(length == 0){
-        break
-    }
-
     if(chute == numeroSecreto){
     window.alert("Acertou!")
     break
