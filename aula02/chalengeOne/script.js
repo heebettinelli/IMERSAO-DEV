@@ -22,7 +22,7 @@ function comecar() {
     }
 
     if (contador == tentativas){
-        window.alert("Sinto muito, você esgotou suas tentativas. O numero secreto era" + numeroSecreto)
+        window.alert("Sinto muito, você esgotou suas tentativas. O numero secreto era"+ " " + numeroSecreto)
         break
     }
 }
