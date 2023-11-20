@@ -5,20 +5,22 @@ var nomes = [
  "Crepúsculo", "Harry Potter", "Totoro", "Friends", "One Piece", "The Office"
 ]
 
+cartazes.push("https://upload.wikimedia.org/wikipedia/pt/c/c1/Twilight_Poster.jpg", "https://upload.wikimedia.org/wikipedia/pt/1/1d/Harry_Potter_Pedra_Filosofal_2001.jpg", "https://static.wikia.nocookie.net/vozesportuguesas/images/4/45/Totoro.png/revision/latest?cb=20201012184332&path-prefix=pt",)
 
 
-var i = 0
-var b = 0
-while (i < cartazes.length && b < nomes.length) {
-  document.write('<h4>' + nomes[b] + '</h4>')
-  document.write("<img src=" + cartazes[i] + ">")
-  i++
-  b++
+for (var i = 0; i < cartazes.length; i++) {
+    document.write("<img src=" + cartazes[i] + ">")
 }
 
 
 
-// for (var i = 0; i < cartazes.length; i++) {
-//     document.write("<img src=" + cartazes[i] + ">")
-//  }
 
+
+// var i = 0
+// var b = 0
+// while (i < cartazes.length && b < nomes.length) {
+//   document.write('<h4>' + nomes[b] + '</h4>')
+//   document.write("<img src=" + cartazes[i] + ">")
+//   i++
+//   b++
+// }
