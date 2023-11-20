@@ -7,12 +7,13 @@ var nomes = [
 
 var i = 0
 var b = 0
-while (i < cartazes.length && b < nomes.length) {
+while(i < cartazes.length && b < nomes.length){
   document.write('<h4>' + nomes[b] + '</h4>')
   document.write("<img src=" + cartazes[i] + ">")
   i++
   b++
 }
+
 
 
 
