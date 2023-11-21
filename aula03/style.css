@@ -29,6 +29,16 @@ body {
     width: 200px;
   }
   
+  .btn{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(201, 40, 40);
+    border: none;
+    border-radius: 3px;
+    color: white;
+  }
+
   .alura-logo {
     width: 40px;
     position: absolute;

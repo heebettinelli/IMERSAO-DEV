@@ -64,5 +64,7 @@ adicionarFilmes.addEventListener("click", function(){
     var novoElemento = document.createElement("div");
     novoElemento.innerHTML = `<img src="${urlFilme}" alt="${nomeDoFilme}"><p>${nomeDoFilme}</p>`;
     listaFilmesElement.appendChild(novoElemento);
+
+    
 });
  
