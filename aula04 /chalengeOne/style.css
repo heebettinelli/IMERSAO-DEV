@@ -75,6 +75,17 @@ body {
     transition: 0.3s;
   }
   
+  .btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(191, 35, 35);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+  }
+  
   .form-wrapper button:hover {
     opacity: 0.8;
   }
